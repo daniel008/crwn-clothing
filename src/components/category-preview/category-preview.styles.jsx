@@ -8,6 +8,7 @@ export const CategoryPreviewContainer = styled.div`
 
   @media screen and (max-width: 800px) {
     align-items: center;
+    padding: 5px;
   }
 `
 
@@ -15,6 +16,10 @@ export const Title = styled(Link)`
   font-size: 28px;
   margin-bottom: 25px;
   cursor: pointer;
+
+  @media screen and (max-width: 800px) {
+    font-size: 24px;
+  }
 `
 
 export const Preview = styled.div`

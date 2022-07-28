@@ -18,4 +18,8 @@ export const Title = styled.h2`
   font-size: 38px;
   margin-bottom: 25px;
   text-align: center;
+
+  @media screen and (max-width: 800px) {
+    font-size: 24px;
+  }
 `
